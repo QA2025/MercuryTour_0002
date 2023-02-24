@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Execution">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Page_Object_Model_DesignPattern.RegistrationPage_OperationsPage"/>
+      <class name="Mercury_Tour_Operation_Execution.Mercury_Operation_FDP"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T11:21:29 EST" name="Default suite" finished-at="2023-02-21T11:21:38 EST" duration-ms="8280">
+    <groups>
+      <group name="Functional Testing">
+        <method signature="Mercury_Operation_FDP.registertoMercury()[pri:1, instance:Mercury_Tour_Operation_Execution.Mercury_Operation_FDP@4a83a74a]" name="registertoMercury" class="Mercury_Tour_Operation_Execution.Mercury_Operation_FDP"/>
+        <method signature="Mercury_Operation_FDP.selectflights()[pri:2, instance:Mercury_Tour_Operation_Execution.Mercury_Operation_FDP@4a83a74a]" name="selectflights" class="Mercury_Tour_Operation_Execution.Mercury_Operation_FDP"/>
+      </group> <!-- Functional Testing -->
+    </groups>
+    <test started-at="2023-02-21T11:21:29 EST" name="Default test" finished-at="2023-02-21T11:21:38 EST" duration-ms="8280">
+      <class name="Mercury_Tour_Operation_Execution.Mercury_Operation_FDP">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Mercury_Tour_Operation_Execution.Mercury_Operation_FDP@4a83a74a]" started-at="2023-02-21T11:21:29 EST" name="Setup" finished-at="2023-02-21T11:21:33 EST" duration-ms="3710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="registertoMercury()[pri:1, instance:Mercury_Tour_Operation_Execution.Mercury_Operation_FDP@4a83a74a]" started-at="2023-02-21T11:21:33 EST" name="registertoMercury" description="TEST DESCRIPTION: Mercury Tour Registration" finished-at="2023-02-21T11:21:35 EST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registertoMercury -->
+        <test-method signature="selectflights()[pri:2, instance:Mercury_Tour_Operation_Execution.Mercury_Operation_FDP@4a83a74a]" started-at="2023-02-21T11:21:35 EST" name="selectflights" description="TEST DESCRIPTION: Mercury Tour Flights" finished-at="2023-02-21T11:21:37 EST" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectflights -->
+        <test-method is-config="true" signature="closingbrowser()[pri:0, instance:Mercury_Tour_Operation_Execution.Mercury_Operation_FDP@4a83a74a]" started-at="2023-02-21T11:21:37 EST" name="closingbrowser" finished-at="2023-02-21T11:21:38 EST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- Mercury_Tour_Operation_Execution.Mercury_Operation_FDP -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
