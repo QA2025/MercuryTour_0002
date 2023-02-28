@@ -26,7 +26,7 @@ public class Mercury_Operation_FDP {
 		Y= new Mercury_Flights_Object_FDP(driver);
 		driver.get("https://demo.guru99.com/test/newtours/index.php");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(6,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
 	
 	@Test(priority=1, groups= "Functional Testing", description="TEST DESCRIPTION: Mercury Tour Registration")
