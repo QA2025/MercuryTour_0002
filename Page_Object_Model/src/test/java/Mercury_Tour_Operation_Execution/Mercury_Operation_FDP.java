@@ -2,6 +2,7 @@ package Mercury_Tour_Operation_Execution;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Mercury_Operation_FDP {
 	
-	EdgeDriver driver;
+	WebDriver driver;
 	Mercury_Registration_Object_FDP X;
 	Mercury_Flights_Object_FDP Y;
 	
